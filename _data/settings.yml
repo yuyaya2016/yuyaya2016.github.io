@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: Zolan
+title: Joanna Yeh
 logo: logo.svg # You can add own logo.
 description: Zolan is modern minimal theme for Jekyll
 
@@ -8,19 +8,19 @@ description: Zolan is modern minimal theme for Jekyll
 #-------------------------------
 # Author Settings
 author:
-  name: Alex Rodriguez
+  name: Joanna Yeh #Alex Rodriguez
   image: 01.jpg
-  say-hello: Hello, I’m <strong>Alex Rodriguez</strong>
-  bio: Designs, talks, and writes about <strong>web</strong>, <strong>ethics</strong>, <strong>privacy</strong>, and dev. I share design tutorials, free resources and inspiration. Loves <a href="#">music</a> & riding his bicycle.
+  say-hello:  <strong>Joanna Yeh</strong>
+  bio: Hello! I am a data enthusiam based in California with four-year experience. My professional enthusiasm includes data analytics, data visualization, statistical modeling, product development, and CRM strategy. I currently pursuing a Master degree in Business Analytics at University of California, Irvine. I'm seeking full-time data analyst role and open to any freelance projects. Feel free to reach out to me!
 
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+twitter: https://twitter.com/yuanyaya1111 # Add your Twitter handle
+facebook: https://www.facebook.com/yuan.ye1 # Add your Facebook handle
+linkedin: https://www.linkedin.com/in/yu-an-yeh/ # Add your linked handle
+instagram: https://www.instagram.com/annyuyeh/ # Add your Instagram handle
+github: https://github.com/yuyaya2016 # Add your github handle
 
 
 #-------------------------------
@@ -30,8 +30,8 @@ disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: artemsheludko_ # Add instagram username
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: yu-an-yeh # Add instagram username
 
 
 #-------------------------------
