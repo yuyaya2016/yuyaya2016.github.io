@@ -5,22 +5,33 @@ permalink: /about/
 image: 01.jpg
 ---
 
-Hi, my name is Alex Rodriguez. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+Hi, my name is Yu-An (Joanna) Yeh. I am a data analyst and project manager with four-year experience in the consultancies and startups. My professional enthusiasm includes data analytics, statistical modeling, visualized storytelling, CRM, and strategic innovation planning. I am also experienced in project and product management leading multiple cross-functional team projects and knowing the knowledge of Sprint and Agile development. Beyond work, I am a part of Data for Social Good Fellowship, Women in Data Science, and Girls in Tech, dedicating to social innovation and engaging women to STEM through data science and technology. 
+
+I currently pursuing Master of Science in Business Analytics at University of California, Irvine. As the core of my study is data modeling and forecasting. I equip myself with comprehensive data process from ETL, data analysis to algorithm deployment and visualization. I also gain skills of harnessing data to business strategy and product development. I am highly experienced in Python, R, SQL, and Tableau. Now, my major focus is Machine Learning and Natural Language Processing.
+
+I am seeking full-time opportunities for the role of business analyst or data analyst. I am also open to any freelance projects. Please feel free to reach out me!
+
+Email: joannayeh01@gmail.com
 
 ***
 
-#### Austin scenester...
-<small>2008 - 2018</small>
+#### Data Analyst and Product Analyst
+<small>2016 - 2020</small>
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+- UCI Master of Science in Business Analytics Student; Currently, I work on capstone project as Data Analyst at Experian. (2019-2020)
+- Product Analyst at Codementor, the largest community for developer mentorship and developer marketplace in partnership with Y Combinator.(2019)
+- Data Analyst and Program Manager at Data for Social Good Taipei, working on Urban Flooding Data Solution Project highlighted in 2019 Bloomberg Data for Good Exchange Conference. (2018-2019)
+- Data Analyst and Business Analyst at BitsxBites Innovation, a food incubator invested by one of the largest food company in China. (2016-2017)
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
+#### CRM Consultant and Project Management
+<small>2014 - 2015</small>
 
-#### La croix you probably...
-<small>1995 - 2000</small>
+- CRM Account Management at Kaytune CRM, managing omni-channel CRM loyalty programs, data analytics, database development, and social CRM marketing planning. (2015-2016)
+- CRM Program Management at STORM CRM Consultancy, initiating CRM membership programs and being in charge of communication and presentation via pitch decks and data reports. (2014-2015)
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+
+#### Business
+<small>2010 - 2014</small>
+
+- Bachelor of Business Administration at National Taipei University
