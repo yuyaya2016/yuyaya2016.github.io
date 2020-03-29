@@ -2,14 +2,14 @@
 # General Site Settings
 title: Joanna Yeh
 logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
+description: Joanna Portfolio
 
 
 #-------------------------------
 # Author Settings
 author:
   name: Joanna Yeh #Alex Rodriguez
-  image: 01.jpg
+  image: 01.png
   say-hello:  <strong>Joanna Yeh</strong>
   bio: Hello! I am a data enthusiam based in California with 4-year experience. My professional enthusiasm includes data analytics, data visualization, statistical modeling, product development, and CRM strategy. I currently pursuing a Master degree in Business Analytics at University of California, Irvine. I'm seeking full-time data analyst role and open to any freelance projects. Feel free to reach out to me!
 
