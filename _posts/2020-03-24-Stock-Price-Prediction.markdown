@@ -23,7 +23,7 @@ Finally, the trend is plotted in Tableau. On the other hand, with the coefficien
 ![]({{ site.baseurl }}/images/Tb_viz01.png)
 Check out the [Tableau Gallery][tableau] for the Dashboard.
 
-[tableau] : https://public.tableau.com/profile/joanna5709#!/vizhome/StockForecast_15856896441140/StockPricePredictionDashboard
+[tableau]: https://public.tableau.com/profile/joanna5709#!/vizhome/StockForecast_15856896441140/StockPricePredictionDashboard
 
 ### Next Step
 There are three works in progress to increase the accuracy of the future prediction. 
