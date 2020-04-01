@@ -4,7 +4,7 @@ title:  "Propensity Score Matching Analysis for High Note"
 date:   2020-02-21 18:05:55 +0300
 project type: course project
 duration: 2 days
-image:  PSM.png
+image:  PSM02.png
 tags:   R, ggplot, PSM, LogisticRegression
 ---
 ## Overview
@@ -15,7 +15,7 @@ Propensity score is the conditional probability of receiving the treatment (rath
 This project is to showcase how propensity score matching method works in analysis. I used logistic regression to estimate the score. Nextm I tried two propensity score matching methods - nearest neighbor method and subclassification method - to help me balance data. 
 
 
-Check out the [GitHub][psm-github] for the details.
+**Check out the [GitHub][psm-github] for the details.**
 
 [psm-github]:   https://github.com/yuyaya2016/Propensity_Score_Matching_R/blob/master/PSM_Rcode.Rmd
 
