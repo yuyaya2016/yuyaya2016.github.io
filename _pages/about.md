@@ -37,5 +37,5 @@ Email: joannayeh01@gmail.com
 #### Education
 <small>Business Analytics focus</small>
 - Master of Science in Business Analytics at University of California, Irvine (2019-2020)
-- Certificate of Information System, Specialized in Python and Java at National Taiwan University (2018)
+- Certificate of Python and Java at National Taiwan University (2018)
 - Bachelor of Business Administration at National Taipei University (2010-2014)
