@@ -4,7 +4,7 @@ title:  Stock Forecast
 date: 2020-03-24 15:01:35 +0300
 project type: course project
 duration: 3 days
-image:  Tb_viz01.png
+image:  Tb_viz02.png
 tags:   LinearRegression, TimeSeries, Forecasting, Visualization, Alteryx, Tableau
 ---
 ### Goal and Overview
