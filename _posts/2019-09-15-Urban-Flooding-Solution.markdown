@@ -33,7 +33,9 @@ Since the datasets are collected in different ways, it took a lot of effort to m
 #### EDA and Visualization
 Below is the demo of exploratory analysis of illegal reclaimation data.
 <!-- ![]({{ site.baseurl }}/images/flood05.png) -->
-<iframe src="https://drive.google.com/file/d/1_1_6CDGEnJ_TgRGkqJvieM0uLkML7pmP/view?usp=sharing" frameborder="0" allowfullscreen></iframe>
+<<video width="320" height="240" controls>
+  <source src="D4SG_tbw.mp4" type="video/mp4">
+</video>
 
 #### Modeling
 Based on the data and context, we applied Autoregressive Distributed Lag Model (ADLM) to prediction. We used extreme rainfall events only to train our model. The proposed autoregressive distributed lag model (ADLM) is defined as followed, where 𝑆" , 𝑅" and 𝑃" stand for the water level of sewer monitoring site, the rainfall amount and the pumping amount at time 𝑡.
