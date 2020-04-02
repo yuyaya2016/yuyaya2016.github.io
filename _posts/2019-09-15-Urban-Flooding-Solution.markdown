@@ -2,7 +2,7 @@
 layout: post
 title:  Data-Driven Urban Flooding Solution - Auto Regressive Time Series Model
 date:   2019-09-15 15:01:35 +0300
-image:  flood06.png
+image:  flood05.png
 tags:   R, Tableau, TimeSeries
 ---
 #### Goal 
@@ -46,7 +46,7 @@ In the below image, the upper panel shows the results of one flood site whereas 
 
 #### Prototype 
 The prototype of smart flood control observatory.
-![]({{ site.baseurl }}/images/flood.mov)
+![]({{ site.baseurl }}/images/flood06.png)
 
 
 **Reference**
