@@ -16,26 +16,22 @@ Email: joannayeh01@gmail.com
 ***
 
 #### Work Experience 
-<small>Data Analyst and Product Analyst</small>
+<medium>Data Analyst and Product Analyst</medium>
 
 - Product Analyst at Codementor, the largest community for developer mentorship and marketplace in partnership with Y Combinator.(Taipei, 2019)
 - Data Analyst and Program Manager on Urban Flooding Data Solution Project at Data for Social Good Taipei, highlighted in 2019 Bloomberg Data for Good Exchange Conference. (Taipei, 2018-2019)
 - Volunteer for Women in Data Science Annual Forum in Taipei (Taipei, 2019)
 - Data Analyst and Consumer Researcher at BitsxBites Innovation (ArcheX), a food incubator invested by the third largest food company in China. (Shanghai, 2016-2017)
 
-<br> 
-</br>
 <!-- #### CRM Consultant and Project Management -->
-<small>CRM Consultant and Project Management</small>
+<medium>CRM Consultant and Project Management</medium>
 
 - CRM and Social CRM Account Management at Kaytune CRM (Shanghai, 2015-2016)
 - CRM Program Management at STORM CRM Consultancy (Taipei, 2014-2015)
 
-<br> 
-</br>
-
+<br>
 #### Education
-<small>Business Analytics focus</small>
+<medium>Business Analytics focus</medium>
 - Master of Science in Business Analytics at University of California, Irvine (2019-2020)
 - Certificate of Python and Java at National Taiwan University (2018)
 - Bachelor of Business Administration at National Taipei University (2010-2014)
