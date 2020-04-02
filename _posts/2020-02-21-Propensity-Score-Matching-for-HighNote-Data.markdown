@@ -4,7 +4,7 @@ title:  "Propensity Score Matching Analysis for High Note"
 date:   2020-02-21 18:05:55 +0300
 project type: course project
 duration: 2 days
-image:  PSM02.png
+image:  PSM03.png
 tags:   R, ggplot, PSM, LogisticRegression
 ---
 ## Overview
