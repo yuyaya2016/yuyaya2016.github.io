@@ -42,6 +42,9 @@
               <li class="nav__item">
                 <a href="{{ file.url | prepend: site.baseurl }}" target="_blank" class="nav__link" >{{ file.title }}</a>
               </li>
+              {% endif %}
+                {% endunless %}
+              {% endfor %}
             </ul>
 
           </div>
