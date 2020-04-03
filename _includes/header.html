@@ -36,15 +36,9 @@
               {% endif %}
                 {% endunless %}
               {% endfor %}
-              {% for file in site.doc %}
-               {% unless file.name == 'tags.pdf' or file.name == '404.html' %}
-              {% if file.title %}
               <li class="nav__item">
-                <a href="{{ site.baseurl }}/Resume.pdf" class="nav__link" target="_blank">RESUME</a>
+                <a href="{{ site.baseurl }}/_doc/Resume.pdf" target="_blank" class="nav__link" >RESUME</a>
               </li>
-              {% endif %}
-                {% endunless %}
-              {% endfor %}
             </ul>
 
           </div>
