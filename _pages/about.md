@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: 01.png
+# image: 01.png
 ---
 
 Hi, my name is Yu-An (Joanna) Yeh. I am a data analyst and project manager with four-year experience in the consultancies and startups. My professional enthusiasm includes data analytics, statistical modeling, visualized storytelling, CRM, and strategic innovation planning. I am also experienced in product management with knowledge of Sprint and Agile development and leading multiple cross-functional teams. Beyond work, I am a part of Data for Social Good Fellowship, Women in Data Science, and Girls in Tech, dedicating to social innovation and female leadership through data science and technology. 
