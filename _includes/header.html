@@ -27,6 +27,9 @@
               <li class="nav__item">
                 <a href="{{site.baseurl}}/" class="nav__link">Home</a>
               </li>
+              <li class="nav__item">
+                <a href="{{site.baseurl}}/_doc/Resume.pdf" target="_blank" class="nav__link" >RESUME</a>
+              </li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
               {% if page.title %}
@@ -36,15 +39,7 @@
               {% endif %}
                 {% endunless %}
               {% endfor %}
-              {% for file in site.doc %}
-                {% unless page.name == 'tags.pdf' or page.name == '404.html' %}
-               {% if file.title %}
-              <li class="nav__item">
-                <a href="{{ file.url | prepend: site.baseurl }}" target="_blank" class="nav__link" >{{ file.title }}</a>
-              </li>
-              {% endif %}
-                {% endunless %}
-              {% endfor %}
+
             </ul>
 
           </div>
