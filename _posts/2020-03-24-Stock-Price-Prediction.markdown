@@ -21,7 +21,7 @@ In the second part, I added the external data as the independent variables, incl
 Finally, the trend is plotted in Tableau. On the other hand, with the coefficients of the trained linear regression model, I could also predict and visualize the target variable using *What-if Forecast* or simply using build-in *Forecast* function. The plot is shown as below. 
 
 ![]({{ site.baseurl }}/images/Tb_viz01.png)
-*Check out the [Tableau Gallery][tableau] for the Dashboard.*
+- Check out the [Tableau Gallery][tableau] for the Dashboard.
 
 [tableau]: https://public.tableau.com/profile/joanna5709#!/vizhome/StockForecast_15856896441140/StockPricePredictionDashboard
 
