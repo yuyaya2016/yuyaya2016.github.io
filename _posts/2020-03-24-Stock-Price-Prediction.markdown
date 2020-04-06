@@ -5,7 +5,7 @@ date: 2020-03-24 15:01:35 +0300
 project type: course project
 duration: 3 days
 image:  Tb_viz02.png
-tags:   LinearRegression, TimeSeries, Forecasting, Visualization, Alteryx, Tableau
+tags:   Alteryx, Tableau, ARIMA, LinearRegression 
 ---
 ### Goal and Overview
 This project takes GE company's stock price for example to predict stock price at the end of 2020. The core idea behind this project is to showcase how to quickly process data, implement algorithms, and build visualized dashboards for clients using __Alteryx__ and __Tableau__. It takes 1 day for research and data collection and 2 days for analysis, tuning, and visualization in this project. The data includes company 5-year stock price, competitors 5-year stock price, industrial index, and microeconomic index.

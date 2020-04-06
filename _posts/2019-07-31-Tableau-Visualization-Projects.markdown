@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Tableau Visualization Mini-Projects
-date:   2019-07-31 00:00:00 +0300
+date:   2020-01-31 00:00:00 +0300
 image:  tableau0.png
 tags:   Tableau, R
 ---
