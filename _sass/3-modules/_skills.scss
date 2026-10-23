@@ -1,0 +1,25 @@
+.skill-group {
+  margin-bottom: 30px;
+}
+
+.skill-group__title {
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: $resume-text;
+}
+
+.skill-group__list {
+  li {
+    padding: 6px 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: $resume-text-secondary;
+    border-bottom: 1px solid $resume-border;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

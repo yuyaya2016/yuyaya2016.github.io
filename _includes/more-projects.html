@@ -1,0 +1,40 @@
+<!-- begin more-projects -->
+{% assign more_posts = site.posts | where_exp: "post", "post.featured != true" %}
+{% if more_posts.size > 0 %}
+<section class="section more-projects" id="more-projects">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <h2 class="section__title">More Projects</h2>
+        <p class="section__subtitle">Earlier analytics and visualization work — scroll for more.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="carousel">
+      <button class="carousel__arrow carousel__arrow--prev" aria-label="Scroll left"><i class="ion ion-ios-arrow-back"></i></button>
+
+      <div class="carousel__track">
+        {% for post in more_posts %}
+          <a class="carousel__item" href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.image %}
+              <div class="carousel__item-image" style="background-image: url({{ site.baseurl }}/images/{{ post.image }})"></div>
+            {% endif %}
+            <div class="carousel__item-body">
+              {% if post.tags.size >= 1 %}
+                <span class="carousel__item-tag">{{ post.tags | first }}</span>
+              {% endif %}
+              <h3 class="carousel__item-title">{{ post.title }}</h3>
+              <p class="carousel__item-desc">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 110 }}{% endif %}</p>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+
+      <button class="carousel__arrow carousel__arrow--next" aria-label="Scroll right"><i class="ion ion-ios-arrow-forward"></i></button>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- end more-projects -->

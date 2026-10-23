@@ -27,6 +27,18 @@
               <li class="nav__item">
                 <a href="{{site.baseurl}}/" class="nav__link">Home</a>
               </li>
+              <li class="nav__item">
+                <a href="{{site.baseurl}}/#projects" class="nav__link">Projects</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{site.baseurl}}/#experience" class="nav__link">Experience</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{site.baseurl}}/#skills" class="nav__link">Skills</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{site.baseurl}}/#contact" class="nav__link">Contact</a>
+              </li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
               {% if page.title %}
@@ -37,7 +49,7 @@
                 {% endunless %}
               {% endfor %}
               <li class="nav__item">
-                <a href="https://drive.google.com/file/d/1c2P7ahOz7R-q0wwdc05uiOuqVzVWT8oa/view?usp=sharing" target="_blank" class="nav__link" >RESUME</a>
+                <a href="{{ site.baseurl }}{{ site.data.settings.author.resume }}" target="_blank" class="nav__link" >RESUME</a>
               </li>
 
             </ul>

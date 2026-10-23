@@ -1,0 +1,139 @@
+.timeline-entry {
+  padding-bottom: 36px;
+  margin-bottom: 36px;
+  border-bottom: 1px solid $resume-border;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.timeline-entry__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.timeline-entry__company {
+  font-size: 22px;
+  font-weight: 700;
+  color: $resume-text;
+}
+
+.timeline-entry__company-sub {
+  font-size: 15px;
+  font-weight: normal;
+  color: $resume-text-secondary;
+}
+
+.timeline-entry__meta {
+  font-size: 14px;
+  color: $resume-text-secondary;
+  white-space: nowrap;
+}
+
+.timeline-role {
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.timeline-role__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.timeline-role__title {
+  font-size: 17px;
+  font-weight: 700;
+  color: $resume-text;
+}
+
+.timeline-role__dates {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: $resume-accent;
+  white-space: nowrap;
+}
+
+.timeline-role__summary {
+  margin: 0 0 14px;
+  font-size: 15px;
+  line-height: 26px;
+  color: $resume-text-secondary;
+}
+
+.timeline-role__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    color: $resume-accent;
+    background-color: rgba($resume-accent, 0.1);
+  }
+}
+
+.timeline-entry__brief {
+  font-size: 15px;
+  line-height: 26px;
+  color: $resume-text-secondary;
+}
+
+.timeline-earlier__title {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: $resume-text;
+}
+
+.timeline-earlier__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 24px;
+    color: $resume-text-secondary;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
+    color: $resume-text;
+  }
+}
+
+.timeline-earlier__dates {
+  font-size: 13px;
+  color: $resume-text-secondary;
+}
+
+@media only screen and (max-width: $tablet) {
+  .timeline-entry__header,
+  .timeline-role__header {
+    flex-direction: column;
+    gap: 2px;
+  }
+}

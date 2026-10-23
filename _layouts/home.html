@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body class="resume-page">
+
+  {% if site.data.settings.google-analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
+  <div class="resume-layout">
+    {% include sidebar.html %}
+
+    <main class="resume-content" aria-label="Content">
+      {{ content }}
+    </main>
+  </div>
+
+  <div class="top ion ion-ios-arrow-up" title="Top"></div>
+
+  {% include javascripts.html %}
+</body>
+
+</html>

@@ -65,24 +65,6 @@ $(document).ready(function() {
   $(".page a img, .post a img").removeAttr("data-action", "zoom");
 
   /* =======================
-  // Instagram Feed
-  ======================= */
-  // userId and accessToken from Matthew Elsom (https://codepen.io/matthewelsom/pen/zrrrLN) for example, for which he thanks a lot!
-  var instagramFeed = new Instafeed({
-    get: 'user',
-    limit: 6,
-    resolution: 'standard_resolution',
-    userId: '8987997106',
-    accessToken: '8987997106.924f677.8555ecbd52584f41b9b22ec1a16dafb9',
-    template:
-      '<li class="instagram-item"><a href="{{link}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}"></a></li>'
-  });
-
-  if ($('#instafeed').length) {
-    instagramFeed.run();
-  }
-
-  /* =======================
   // Scroll Top Button
   ======================= */
   $(".top").click(function() {
@@ -98,5 +80,48 @@ $(document).ready(function() {
     }
   });
 
+  /* =======================
+  // Project Carousel
+  ======================= */
+  $(".carousel").each(function () {
+    var $carousel = $(this),
+      $track = $carousel.find(".carousel__track"),
+      $prev = $carousel.find(".carousel__arrow--prev"),
+      $next = $carousel.find(".carousel__arrow--next");
+
+    function scrollByCard(direction) {
+      var $card = $track.find(".carousel__item").first();
+      var cardWidth = $card.outerWidth(true) || 300;
+      $track.stop().animate({ scrollLeft: $track.scrollLeft() + direction * cardWidth }, 350);
+    }
+
+    $prev.click(function () { scrollByCard(-1); });
+    $next.click(function () { scrollByCard(1); });
+  });
+
+  /* =======================
+  // Sidebar Scroll-Spy
+  ======================= */
+  var $navLinks = $(".sidebar__nav-link");
+  var sections = $navLinks.map(function () {
+    var id = $(this).attr("href");
+    return document.querySelector(id);
+  }).get().filter(Boolean);
+
+  if (sections.length && "IntersectionObserver" in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var link = $('.sidebar__nav-link[href="#' + entry.target.id + '"]');
+        if (entry.isIntersecting) {
+          $navLinks.removeClass("is-active");
+          link.addClass("is-active");
+        }
+      });
+    }, { rootMargin: "-40% 0px -50% 0px", threshold: 0 });
+
+    sections.forEach(function (section) {
+      observer.observe(section);
+    });
+  }
 
 });
