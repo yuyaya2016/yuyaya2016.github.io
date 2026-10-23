@@ -1,0 +1,14 @@
+.contact-section {
+  text-align: center;
+
+  .section__subtitle {
+    margin-bottom: 36px;
+  }
+
+  .contact-section__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+}

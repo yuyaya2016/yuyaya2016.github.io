@@ -1,0 +1,46 @@
+.edu-entry {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid $resume-border;
+
+  &:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.edu-entry__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.edu-entry__school {
+  font-size: 19px;
+  font-weight: 700;
+  color: $resume-text;
+}
+
+.edu-entry__dates {
+  font-size: 14px;
+  color: $resume-text-secondary;
+  white-space: nowrap;
+}
+
+.edu-entry__degree {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: $resume-accent;
+  font-weight: 700;
+}
+
+.edu-entry__detail {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: $resume-text-secondary;
+}

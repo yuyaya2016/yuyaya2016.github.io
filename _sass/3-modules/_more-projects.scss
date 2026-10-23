@@ -1,0 +1,111 @@
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.carousel__track {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $resume-border;
+    border-radius: $global-radius;
+  }
+}
+
+.carousel__item {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  border-radius: $global-radius;
+  overflow: hidden;
+  border: 1px solid $resume-border;
+  color: $resume-text-secondary;
+  transition: $global-transition;
+
+  &:hover {
+    color: $resume-text-secondary;
+    border-color: $resume-accent;
+    transform: translateY(-3px);
+  }
+}
+
+.carousel__item-image {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+  background-color: $resume-bg-alt;
+  flex-shrink: 0;
+}
+
+.carousel__item-body {
+  padding: 18px;
+  background: $resume-bg-alt;
+  flex: 1;
+}
+
+.carousel__item-tag {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: $resume-accent;
+}
+
+.carousel__item-title {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.3;
+  color: $resume-text;
+}
+
+.carousel__item-desc {
+  margin: 0;
+  font-size: 13px;
+  line-height: 21px;
+  color: $resume-text-secondary;
+}
+
+.carousel__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin-top: 60px;
+  border-radius: 50%;
+  border: 1px solid $resume-border;
+  background: transparent;
+  color: $resume-text;
+  font-size: 18px;
+  cursor: pointer;
+  transition: $global-transition;
+
+  &:hover {
+    border-color: $resume-accent;
+    color: $resume-accent;
+  }
+}
+
+@media only screen and (max-width: $tablet) {
+  .carousel__arrow {
+    display: none;
+  }
+}

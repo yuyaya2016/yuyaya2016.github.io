@@ -1,25 +1,25 @@
 #-------------------------------
 # General Site Settings
-title: Joanna
+title: Joanna Yeh
 logo: logo.png # You can add own logo.
-description: Joanna Portfolio
+description: Analytics & Data Engineer — causal impact analysis, experimentation, and production data pipelines.
 
 
 #-------------------------------
 # Author Settings
 author:
-  name: Joanna Yeh #Alex Rodriguez
+  name: Joanna Yeh
   image: 01.png
-  say-hello:  <strong>Joanna Yeh</strong>
-  bio: Hello! I am a data enthusiam based in California with 4-year experience. I currently pursuing a Master degree in Business Analytics at University of California, Irvine. I'm seeking full-time data analyst role and open to any freelance projects. Feel free to reach out to me!
+  role: Analytics & Data Engineer
+  location: Seattle, WA
+  tagline: From causal impact analysis to production pipelines, I turn messy business data into systems teams can trust.
+  email: joannayeh01@gmail.com
+  resume: /files/Joanna-Yeh-Resume.pdf
 
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/yuanyaya1111 # Add your Twitter handle
-facebook: https://www.facebook.com/yuan.ye1 # Add your Facebook handle
 linkedin: https://www.linkedin.com/in/yu-an-yeh/ # Add your linked handle
-instagram: https://www.instagram.com/annyuyeh/ # Add your Instagram handle
 github: https://github.com/yuyaya2016 # Add your github handle
 
 
@@ -29,16 +29,5 @@ disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example
 
 
 #-------------------------------
-# Instagram Feed
-instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: yu-an-yeh # Add instagram username
-
-
-#-------------------------------
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
-
-
-#-------------------------------
-# Newsletter
-mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e

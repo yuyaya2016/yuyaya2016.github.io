@@ -1,0 +1,182 @@
+body.resume-page {
+  background-color: $resume-bg;
+  color: $resume-text-secondary;
+}
+
+.resume-page .top {
+  background-color: $resume-accent;
+  color: $resume-bg;
+
+  &:hover {
+    background-color: darken($resume-accent, 8%);
+  }
+}
+
+.resume-layout {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  @media only screen and (max-width: $desktop) {
+    padding: 0 24px;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+
+.sidebar {
+  flex: 0 0 340px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding: 60px 40px 40px 0;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: $tablet) {
+    position: static;
+    height: auto;
+    width: 100%;
+    padding: 40px 0 20px;
+  }
+}
+
+.sidebar__inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sidebar__name {
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 700;
+  color: $resume-text;
+}
+
+.sidebar__role {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: $resume-text;
+}
+
+.sidebar__tagline {
+  margin-bottom: 6px;
+  font-size: 15px;
+  line-height: 24px;
+  color: $resume-text-secondary;
+}
+
+.sidebar__location {
+  margin-bottom: 0;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: $resume-accent;
+}
+
+.sidebar__nav {
+  display: block;
+  margin-top: 48px;
+
+  @media only screen and (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.sidebar__nav-list {
+  li {
+    margin-bottom: 18px;
+  }
+}
+
+.sidebar__nav-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $resume-text-secondary;
+  transition: $global-transition;
+
+  .sidebar__nav-line {
+    width: 28px;
+    height: 2px;
+    background-color: $resume-text-secondary;
+    transition: $global-transition;
+  }
+
+  &:hover,
+  &.is-active {
+    color: $resume-text;
+
+    .sidebar__nav-line {
+      width: 44px;
+      background-color: $resume-accent;
+    }
+  }
+}
+
+.sidebar__footer {
+  margin-top: auto;
+  padding-top: 30px;
+
+  @media only screen and (max-width: $tablet) {
+    margin-top: 24px;
+  }
+}
+
+.sidebar__resume-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 11px 20px;
+  border-radius: $global-radius;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: $resume-bg;
+  background-color: $resume-accent;
+  transition: $global-transition;
+
+  &:hover {
+    color: $resume-bg;
+    background-color: darken($resume-accent, 8%);
+  }
+}
+
+.sidebar__social {
+  display: flex;
+  gap: 18px;
+
+  a {
+    font-size: 20px;
+    color: $resume-text-secondary;
+
+    &:hover {
+      color: $resume-accent;
+    }
+  }
+}
+
+.resume-content {
+  flex: 1;
+  min-width: 0;
+  padding: 60px 0 80px;
+
+  @media only screen and (max-width: $tablet) {
+    padding: 20px 0 60px;
+  }
+}
+
+.resume-content section[id] {
+  scroll-margin-top: 24px;
+}

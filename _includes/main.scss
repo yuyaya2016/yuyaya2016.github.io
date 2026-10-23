@@ -20,13 +20,19 @@
 :: 3 Modules
     3.1 Scroll Button Top
     3.2 Header
-    3.3 Hero
     3.4 Search
-    3.5 Contact Link
     3.6 Pagination
-    3.7 Subscribe
-    3.8 Instagram
-    3.9 Footer
+    3.7 Footer
+    3.8 Buttons
+    3.9 Sections
+    3.10 Featured Projects
+    3.11 Experience
+    3.12 Skills
+    3.13 Education
+    3.14 Contact Section
+    3.15 More Projects Carousel
+    3.16 Resume Layout
+    3.17 About
 
 :: 4-Layouts
     4.1 Page-home
@@ -77,26 +83,44 @@
 // 3.2 Header
 @import '3-modules/header';
 
-// 3.3 Hero
-@import '3-modules/hero';
-
 // 3.4 Search
 @import '3-modules/search';
-
-// 3.5 Contact Link
-@import '3-modules/contact-link';
 
 // 3.6 Pagination
 @import '3-modules/pagination';
 
-// 3.7 Subscribe
-@import '3-modules/subscribe';
-
-// 3.8 Instagram
-@import '3-modules/instagram';
-
-// 3.9 Instagram
+// 3.7 Footer
 @import '3-modules/footer';
+
+// 3.8 Buttons
+@import '3-modules/buttons';
+
+// 3.9 Sections
+@import '3-modules/sections';
+
+// 3.10 Featured Projects
+@import '3-modules/featured-projects';
+
+// 3.11 Experience
+@import '3-modules/experience';
+
+// 3.12 Skills
+@import '3-modules/skills';
+
+// 3.13 Education
+@import '3-modules/education';
+
+// 3.14 Contact Section
+@import '3-modules/contact-section';
+
+// 3.15 More Projects Carousel
+@import '3-modules/more-projects';
+
+// 3.16 Resume Layout (dark homepage)
+@import '3-modules/resume-layout';
+
+// 3.17 About
+@import '3-modules/about';
 
 /* >>>>>>>>>>>>>> :: 4-Layouts <<<<<<<<<<<<<<< */
 

@@ -1,0 +1,38 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 24px;
+  border-radius: $global-radius;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  transition: $global-transition;
+
+  i {
+    font-size: 18px;
+  }
+}
+
+.btn--primary {
+  color: $resume-bg;
+  background-color: $resume-accent;
+
+  &:hover,
+  &:active {
+    color: $resume-bg;
+    background-color: darken($resume-accent, 8%);
+  }
+}
+
+.btn--outline {
+  color: $resume-text;
+  background-color: transparent;
+  border: 1px solid $resume-border;
+
+  &:hover,
+  &:active {
+    color: $resume-text;
+    border-color: $resume-accent;
+  }
+}

@@ -3,7 +3,7 @@ layout: post
 title:  Fashion MNIST and Visualization
 date:   2020-01-31 15:01:35 +0300
 image:  fashion01.png
-tags:   Python, Tensorflow, Tensorboard, MachineLearning, DeepLearning, t-SNE
+tags: [Python, Tensorflow, Tensorboard, MachineLearning, DeepLearning, t-SNE]
 ---
 #### Goal and Overview
 The project is to recognize the apparel images from a given category that uses Convolutional Neural

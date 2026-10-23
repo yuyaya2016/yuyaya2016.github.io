@@ -5,7 +5,11 @@ date:   2020-02-21 18:05:55 +0300
 project type: course project
 duration: 2 days
 image:  PSM04.png
-tags:   R, ggplot, PSM, LogisticRegression
+tags: [R, ggplot, PSM, LogisticRegression]
+featured: true
+featured_category: Causal Inference
+featured_result: Isolated true treatment effect from selection bias
+description: Used logistic regression to estimate propensity scores, then applied nearest-neighbor and subclassification matching to balance treatment and control groups and isolate the causal effect of a subscription feature on user behavior.
 ---
 ## Overview
 Propensity score is the conditional probability of receiving the treatment (rather than the control) given the observed covariates. In the observational study, the treatment and control groups are not directly comparable, because they may systematically differ at baseline. So, propensity score plays a crucial role in eliminating the bias that comes with observational study and balancing covariates between two groups. Matching is one of the approaches that propensity scores can be used to control confounding. 

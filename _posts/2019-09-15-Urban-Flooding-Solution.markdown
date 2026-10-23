@@ -3,7 +3,11 @@ layout: post
 title:  Data-Driven Urban Flooding Solution - Auto Regressive Time Series Model
 date:   2019-09-15 15:01:35 +0300
 image:  flood00.png
-tags:   R, Tableau, TimeSeries
+tags: [R, Tableau, TimeSeries]
+featured: true
+featured_category: Time Series
+featured_result: Highlighted at 2019 Bloomberg Data for Good Exchange
+description: Built an auto-regressive time-series model to predict flooding 60 minutes ahead for Taipei City, partnering with the Taipei Geotechnical Engineering Office and Central Weather Bureau to move from reactive construction to a data-driven early-warning system.
 ---
 #### Goal 
 The project aims to find a data-driven and economic flood control observatory to predict 60-minute forward flooding status and share possible advice beforehand.  avoid the flooding issue in the urban area. The project takes Taipei city as target to build prototype at the first stage. We hope to further extend the solutions to other urban areas. The solution in this project was highlighted in 2019 Bloomberg Data for Good Exchange Conference.

@@ -3,7 +3,7 @@ layout: post
 title:  NFL Super Bowl Final Game Score Prediction
 date:   2020-02-01 15:01:35 +0300
 image:  nfl02.png
-tags:   Python, Tensorflow, Prophet, TimeSeries
+tags: [Python, Tensorflow, Prophet, TimeSeries]
 ---
 #### Goal
 The project is to predict 2020 NFL final game winner and the scores for Kansas City Chiefs and San Francisco 49ers. 
