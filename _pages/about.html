@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /about/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting to About</title>
+  <!-- The old standalone About page now lives on the homepage. -->
+  <link rel="canonical" href="{{ site.baseurl }}/#about">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/#about">
+  <script>location.replace("{{ site.baseurl }}/#about");</script>
+</head>
+<body>
+  <p>This page has moved. <a href="{{ site.baseurl }}/#about">Go to About</a>.</p>
+</body>
+</html>
