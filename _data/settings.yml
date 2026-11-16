@@ -24,10 +24,5 @@ github: https://github.com/yuyaya2016 # Add your github handle
 
 
 #-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
-
-
-#-------------------------------
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
