@@ -10,7 +10,6 @@ Table of Contents
 *   [Demo](#demo)
 *   [Deployment](#deployment)
 *   [Posts](#posts)
-*   [Disqus Comments](#DisqusComments)
 *   [Instagram](#instagram)
 *   [Google Analytics](#GoogleAnalytics)
 *   [Update favicon](#UpdateFavicon)
@@ -32,8 +31,6 @@ Table of Contents
 * Post sharing
 
 * Subscription form
-
-* Supports Disqus Comments
 
 * Instagram Feed
 
@@ -82,22 +79,6 @@ You can set the tags and the post image.
 Add post images to **/images/** directory.
 
 For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
-
-* * *
-
-### Disqus Comments
-
-Zolan Theme comes with Disqus comments enabled.
-
-Open `_data/settings.yml` file, and change the `mr-brown` value on line 26 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
-
-      Comment Section (Disqus)
-      disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
-
-
-That’s all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide).
-
-And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
 * * *
 

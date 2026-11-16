@@ -2,19 +2,20 @@
 <aside class="sidebar">
   <div class="sidebar__inner">
     <div class="sidebar__intro">
-      <p class="sidebar__name">{{ site.data.settings.author.name }}</p>
+      <p class="sidebar__name"><a href="{{ site.baseurl }}/">{{ site.data.settings.author.name }}</a></p>
       <p class="sidebar__role">{{ site.data.settings.author.role }}</p>
       <p class="sidebar__tagline">{{ site.data.settings.author.tagline }}</p>
       <p class="sidebar__location">{{ site.data.settings.author.location }}</p>
     </div>
 
+    {% if page.url != "/" %}{% assign nav_base = site.baseurl | append: "/" %}{% endif %}
     <nav class="sidebar__nav" aria-label="Section navigation">
       <ul class="sidebar__nav-list list-reset">
-        <li><a href="#about" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>About</a></li>
-        <li><a href="#experience" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>Experience</a></li>
-        <li><a href="#skills" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>Skills</a></li>
-        <li><a href="#projects" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>Projects</a></li>
-        <li><a href="#contact" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>Contact</a></li>
+        <li><a href="{{ nav_base }}#about" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>About</a></li>
+        <li><a href="{{ nav_base }}#experience" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>Experience</a></li>
+        <li><a href="{{ nav_base }}#skills" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>Skills</a></li>
+        <li><a href="{{ nav_base }}#projects" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>Projects</a></li>
+        <li><a href="{{ nav_base }}#contact" class="sidebar__nav-link"><span class="sidebar__nav-line"></span>Contact</a></li>
       </ul>
     </nav>
 

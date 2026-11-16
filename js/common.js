@@ -105,7 +105,8 @@ $(document).ready(function() {
   var $navLinks = $(".sidebar__nav-link");
   var sections = $navLinks.map(function () {
     var id = $(this).attr("href");
-    return document.querySelector(id);
+    // Off the homepage the links point to "/#section"; only spy on same-page anchors.
+    return id.charAt(0) === "#" ? document.querySelector(id) : null;
   }).get().filter(Boolean);
 
   if (sections.length && "IntersectionObserver" in window) {
