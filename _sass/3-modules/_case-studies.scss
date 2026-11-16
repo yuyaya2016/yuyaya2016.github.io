@@ -1,0 +1,106 @@
+// Projects: case study cards on the homepage (_includes/case-studies.html).
+// Card look matches .project-card; tags match .timeline-role__tags.
+
+.case-study {
+  margin-bottom: 28px;
+  padding: 32px 36px;
+  border: 1px solid $resume-border;
+  border-radius: $global-radius;
+  background-color: $resume-bg-alt;
+  transition: $global-transition;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    border-color: rgba($resume-accent, 0.6);
+  }
+
+  @media only screen and (max-width: $tablet) {
+    padding: 24px 20px;
+  }
+}
+
+.case-study__label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: $resume-accent;
+}
+
+.case-study__title {
+  margin-bottom: 24px;
+  font-size: 22px;
+  line-height: 1.3;
+  color: $resume-text;
+
+  @media only screen and (max-width: $tablet) {
+    margin-bottom: 18px;
+    font-size: 19px;
+  }
+}
+
+.case-study__parts {
+  margin: 0;
+}
+
+.case-study__part {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
+  padding: 16px 0;
+  border-top: 1px solid $resume-border;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 14px 0;
+  }
+}
+
+.case-study__part-label {
+  padding-top: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $resume-text-secondary;
+}
+
+.case-study__part-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 26px;
+  color: $resume-text-secondary;
+}
+
+.case-study__part--result .case-study__part-text {
+  color: $resume-text;
+}
+
+.case-study__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    color: $resume-accent;
+    background-color: rgba($resume-accent, 0.1);
+  }
+}

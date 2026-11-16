@@ -1,0 +1,51 @@
+<!-- begin case-studies -->
+{% assign case_studies = site.data.case_studies %}
+{% if case_studies.size > 0 %}
+<section class="section case-studies" id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <h2 class="section__title">Projects</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-12">
+        {% for case in case_studies %}
+        <article class="case-study">
+          <span class="case-study__label">{{ case.label }}</span>
+          <h3 class="case-study__title">{{ case.title }}</h3>
+
+          <dl class="case-study__parts">
+            <div class="case-study__part">
+              <dt class="case-study__part-label">Context</dt>
+              <dd class="case-study__part-text">{{ case.context }}</dd>
+            </div>
+
+            <div class="case-study__part">
+              <dt class="case-study__part-label">What I did</dt>
+              <dd class="case-study__part-text">{{ case.what_i_did }}</dd>
+            </div>
+
+            <div class="case-study__part case-study__part--result">
+              <dt class="case-study__part-label">Result</dt>
+              <dd class="case-study__part-text">{{ case.result }}</dd>
+            </div>
+
+            <div class="case-study__part">
+              <dt class="case-study__part-label">Skills</dt>
+              <dd class="case-study__part-text">
+                <ul class="case-study__tags list-reset">
+                  {% for skill in case.skills %}<li>{{ skill }}</li>{% endfor %}
+                </ul>
+              </dd>
+            </div>
+          </dl>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- end case-studies -->

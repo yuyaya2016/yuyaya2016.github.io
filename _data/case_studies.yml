@@ -1,0 +1,37 @@
+# Case studies shown in the homepage "Projects" section (_includes/case-studies.html).
+# Each entry renders as one card; skills render as tags.
+
+- title: "CRM migration and data model redesign"
+  label: "Engineering"
+  context: "A fast-growing SMB sales organization had outgrown its CRM setup. Duplicate records caused double assignment of merchants and wrong onboarding, and incorrect account hierarchies made the data hard to trust across multiple business lines. The data needed to be restructured to support the full sales lifecycle, from presale through onboarding to post-sales."
+  what_i_did: "I led an 8-person team, including onboarding a vendor team, through the migration and data model redesign. I owned the scope, defined the extraction criteria and sources of truth for upstream migration data, built the presale lead pipeline, and set the logic for the sales pipeline while overseeing the vendor's execution. My internal team owned the post-sales, quoting, and payment migration logic and its validation. The main challenges were cutting over while sales teams were actively working, and mapping messy legacy data into the new model. Airflow pipelines automated transformation and validation, with reconciliation and row-count checks across every scenario, supported by an AI validation agent running a large set of automated checks."
+  result: "Manual data fixes stayed below 5%. By eliminating duplicate data and introducing a better data model, workflow, and functionality, the new system supported 2x merchant onboarding volume."
+  skills:
+    - "Salesforce"
+    - "Airflow"
+    - "Snowflake"
+    - "Data modeling"
+    - "Data validation"
+
+- title: "Self-serve lead ingestion and account deduplication"
+  label: "Engineering"
+  context: "Sales strategy teams have to upload lead lists to Salesforce before reps can start outreach, and every day of delay pushes back time to contact and time to sign. Manual processes, limited operations capacity, and messy account hierarchies meant uploads often took a month, and duplicates caused downstream errors."
+  what_i_did: "After interviewing sales strategy and operations teams about their pain points, I initiated and built a self-serve lead upload tool with an ingestion workflow across multi-object Salesforce schemas. I also re-architected the deduplication service from record-by-record lookups to set-based matching, so whole batches are compared in a single pass."
+  result: "Upload turnaround dropped from 30 days to 1 day, and deduplication from up to a week to under 5 minutes. All SMB sales strategy teams across restaurant and new verticals now use the tool, and a self-serve merge tool handles account merge requests across account tiers. I'm piloting an LLM-assisted cleaning step that corrects messy address, postal code, and phone number data to reduce failed uploads."
+  skills:
+    - "Python"
+    - "Salesforce"
+    - "Snowflake"
+    - "Set-based matching"
+    - "LLM-assisted data cleaning"
+
+- title: "Causal impact analysis for New Verticals planning"
+  label: "Analytics"
+  context: "New Verticals teams were planning where to invest, and needed to know which initiatives actually moved merchant growth rather than just coinciding with it."
+  what_i_did: "I used causal impact analysis to separate the effect of specific initiatives from underlying trends, and turned the results into recommendations for New Verticals planning."
+  result: "The analysis informed New Verticals planning, contributing to a 26% QoQ GMV increase and a 23% lift in merchant first-month activation."
+  skills:
+    - "Causal inference"
+    - "Experimentation"
+    - "SQL"
+    - "Snowflake"
